@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js1b</title>
+<link rel="stylesheet" type="text/css" href="css/js1b.css">
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery-1.8.1.min.js"></script>
+<script src="js/js1b.js"></script>
+</head>
+
+<body>
+<div class = "score">
+  <div class = "scoreHeading" id = "compScoreHeading">Computer</div>
+  <div id = "compScore">0</div>
+  <div class = "scoreHeading" id = "playerScoreHeading">Player</div>
+  <div id="playerScore">0</div>
+</div>
+<div class="board">
+  <div class="newgame">New Game</div>
+  <div class = "compHand"></div>
+  <div class = "unopened"></div>
+  <div class = "discards"></div>
+  <div class ="playerHand"></div>
+</div>
+<div class = "rules">
+<H1>Instructions</H1>
+<b>Goal:</b> Be the first to get three pairs of cards, where each pair totals 10.
+<br>Ace is taken as 1. In the case of 10, J, Q and K, you have to get a pair of that card, for example, two Jacks make a pair.
+Examples of pairs include: A and 9, 7 and 3, K and K, 10 and 10. 
+<br><b>How to proceed:</b>
+You start off with 6 cards. Discard a card to start the game. 
+At each turn, you either take the top card from the discard pile,
+or draw a card from the well. If you do not have 3 pairs of cards, 
+you will have to discard a card to end your turn. Both you and the computer
+will do the same until either of you ends up with 3 pairs of cards.
+<br><b>Tip:</b>
+Try not to discard a card you suspect the computer wants.</div>
+</body>
+</html>
